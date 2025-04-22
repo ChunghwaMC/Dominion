@@ -9,6 +9,7 @@ softdepend:
   - dynmap
   - PlaceholderAPI
   - BlueMap
+  - WorldGuard
 commands:
   dominion:
     description: 领地插件命令

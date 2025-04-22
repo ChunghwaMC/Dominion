@@ -39,6 +39,7 @@ allprojects {
         maven("https://repo.mikeprimm.com/")
         maven("https://repo.extendedclip.com/content/repositories/placeholderapi/")
         maven("https://repo.codemc.org/repository/maven-public")
+        maven("https://maven.enginehub.org/repo/")
     }
 
     dependencies {
@@ -47,6 +48,7 @@ allprojects {
         compileOnly("me.clip:placeholderapi:2.11.6")
         compileOnly("com.github.MilkBowl:VaultAPI:1.7")
         compileOnly("net.milkbowl.vault:VaultUnlockedAPI:2.7")
+        compileOnly("com.sk89q.worldguard:worldguard-bukkit:7.0.9-SNAPSHOT")
 
         if (!BuildFull) {
             libraries.forEach {
