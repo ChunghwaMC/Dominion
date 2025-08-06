@@ -432,8 +432,8 @@ flags:
     display-name: 染色
     description: 是否允許為綿羊、狗項圈或貓項圈染色
   egg:
-    display-name: 丟擲雞蛋
-    description: 是否允許丟擲雞蛋
+    display-name: 砸雞蛋
+    description: 是否允許砸雞蛋
   vehicle_spawn:
     display-name: 生成載具
     description: 是否允許生成載具(船、礦車)
@@ -474,8 +474,8 @@ flags:
     display-name: 特殊容器
     description: 如漏斗、熔爐、投擲器、發射器、高爐、煙燻爐
   ender_pearl:
-    display-name: 丟擲終界珍珠
-    description: 是否允許丟擲終界珍珠
+    display-name: 丟終界珍珠
+    description: 是否允許丟終界珍珠
   trig_pressure_proj:
     display-name: 壓力板(投射物)
     description: 是否允許投射物(箭或雪球)觸發壓力板
